@@ -1726,7 +1726,7 @@ async def utahraptor():
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 128 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Moveset', value = \
-            'Critical Impact (1.5x dmg, _40% Crit Chance) \
+            'Critical Impact (1.5x dmg, +40% Crit Chance) \
             \nPounce (2x dmg, -50% dmg) \
             \nStrike (1x dmg)', \
             inline = 'False')
@@ -1773,7 +1773,7 @@ async def spinotahraptor():
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 123 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Moveset', value = \
-            'Critical Impact (1.5x dmg, _40% Crit Chance) \
+            'Critical Impact (1.5x dmg, +40% Crit Chance) \
             \nDistracting Impact (2x dmg, -50% dmg) \
             \nStrike (1x dmg) \
             \nWounding Strike (1x dmg, DoT .5x dmg)', \
@@ -1798,7 +1798,7 @@ async def utasinoraptor():
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 15% \n__Speed:__ 126 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Moveset', value = \
-            'Critical Impact (1.5x dmg, _40% Crit Chance) \
+            'Critical Impact (1.5x dmg, +40% Crit Chance) \
             \nDistracting Impact (2x dmg, -50% dmg) \
             \nInstant Charge (Priority, 1x dmg, 100% Stun) \
             \nStrike (1x dmg)', \
@@ -1846,7 +1846,7 @@ async def utarinex():
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 123 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Moveset', value = \
-            'Critical Impact (1.5x dmg, _40% Crit Chance) \
+            'Critical Impact (1.5x dmg, +40% Crit Chance) \
             \nImpact and Run (1.5x dmg, Auto Swap) \
             \nInstant Charge (Priority, 1x dmg, 100% Stun) \
             \nLow Stunning Strike (1x dmg, 20% Stun)', \
@@ -1990,7 +1990,7 @@ async def spinotasuchus():
         embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 129 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Moveset', value = \
             'Adrenaline Surge (Priority, 1x -> 1.25x dmg, +25% HP) \
-            \nCritical Impact (1.5x dmg, _40% Crit Chance) \
+            \nCritical Impact (1.5x dmg, +40% Crit Chance) \
             \nStrike (1x dmg) \
             \nWounding Strike (1x dmg, DoT .5x dmg)', \
             inline = 'False')
