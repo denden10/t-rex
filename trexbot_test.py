@@ -2336,8 +2336,19 @@ async def trykosaurus():
 
 #------------------------------------------Extra-Dinosaurs-to-code-after-first-attempt---------------------------------#
 
-########Sarniasuchus (placeholder name)
-###########Tuoplomoloch (placeholder name)
+#Brachiosaurus
+#Gallimimus
+#Giraffatitan
+#Ornithomimus
+#Gryposuchus
+
+#Diplotator
+#Ankylocodon
+#Diloranosaurus
+#Monomimus
+
+#Tuoramoloch
+#Sarcorixis
 
 #---------------------------------------------------------------------END PROJECT DINODEX----------------------------------------------------------------------------------------------------------#
 
