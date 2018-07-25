@@ -470,7 +470,7 @@ async def edmontosaurus():
 
 #Iguanodon
 @dino.command()
-async def igaunodon():
+async def iguanodon():
         embed = discord.Embed(
                 title = 'Iguanodon Stats',
                 colour = 0xD3D3D3
