@@ -1324,9 +1324,9 @@ async def stegodeus():
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 30% \n__Speed:__ 107 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Moveset', value = \
-            'Armor Piercing Impact (1.5x dmg, bypass Armor) \
+            'Armor Piercing Rampage (2x dmg, bypass Armor) \
             \nShort Defense (1x dmg, 50% Shield 2 turns) \
-            \nStrike (1x dmg) \
+            \nSuperiority Strike (1x dmg, -33% Speed, Cleanse Self) \
             \nThagomizer (1.5x dmg, -50% Speed)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
@@ -2322,7 +2322,7 @@ async def trykosaurus():
         embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/05/trykosaurus.png")
         embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/Trykosaurus/")
 
-        embed.add_field(name = 'Stats', value = '__Armor:__25% \n__Speed:__ 102 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Stats', value = '__Armor:__ 25% \n__Speed:__ 102 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Moveset', value = \
             'Armor Piercing Rampage (2x dmg, bypass Armor) \
             \nArmor Piercing Strike (1x dmg, bypass Armor) \
@@ -2337,18 +2337,262 @@ async def trykosaurus():
 #------------------------------------------Extra-Dinosaurs-to-code-after-first-attempt---------------------------------#
 
 #Brachiosaurus
+@dino.command()
+async def brachiosaurus():
+        embed = discord.Embed(
+                title = 'Brachiosaurus Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/07/Brachiosaurus-1.png")
+        embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/brachiosaurus/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 10% \n__Speed:__ 111 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Moveset', value = \
+            'Bellow (Priority, 50% Shield, -50$ Speed \
+            \nRampage (2x dmg) \
+            \nSuperiority Strike (1x dmg, -33% Speed, Cleanse Self)', \
+            inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+
+        await client.say(embed = embed)
+
 #Gallimimus
+@dino.command()
+async def gallimimus():
+        embed = discord.Embed(
+                title = 'Gallimimus Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/07/Gallimimus.png")
+        embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/gallimimus/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 124 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Moveset', value = \
+            'Evasive Strike (1x dmg, +50% Dodge Chance \
+            \nImpact and Run (1.5x dmg, Auto Swap', \
+            inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+
+        await client.say(embed = embed)
+
 #Giraffatitan
+@dino.command()
+async def giraffatitan():
+        embed = discord.Embed(
+                title = 'Giraffatitan Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/07/Giraffatitan.png")
+        embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/giraffatitan/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 10% \n__Speed:__ 107 \n__Critical:__ 10%', inline = 'False')
+        embed.add_field(name = 'Moveset', value = \
+            'Bellow (Priority, 50% Shield, -50$ Speed \
+            \nRampage (2x dmg) \
+            \nSuperiority Strike (1x dmg, -33% Speed, Cleanse Self)', \
+            inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+
+        await client.say(embed = embed)
+
 #Ornithomimus
+@dino.command()
+async def ornithomimus():
+        embed = discord.Embed(
+                title = 'Ornithomimus Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/07/Ornithomimus.png")
+        embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/ornithomimus/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 131 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Moveset', value = \
+           'Evasive Strike (1x dmg, +50% Dodge Chance \
+            \nImpact and Run (1.5x dmg, Auto Swap \
+            \n Instant Crippple (Priority, -90% dmg)', \
+            inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+
+        await client.say(embed = embed)
+
 #Gryposuchus
+@dino.command()
+async def gryposuchus():
+        embed = discord.Embed(
+                title = 'Gryposuchus Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/07/Gyprosuchus.png")
+        embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/gryposuchus/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 20% \n__Speed:__ 116 \n__Critical:__ 20%', inline = 'False')
+        embed.add_field(name = 'Moveset', value = \
+            'Ferocious Strike (1x dmg, +50% dmg) \
+            \nLockdown Impact (1.5x dmg, Cannot Swap) \
+            \nVulnerability Strike (1x dmg, Vulnerable)', \
+            inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+
+        await client.say(embed = embed)
 
 #Diplotator
+@dino.command()
+async def diplotator():
+        embed = discord.Embed(
+                title = 'Diplotator Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/07/Diplotator.png")
+        embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/diplotator/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 120 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Moveset', value = \
+            'Armor Piercing Strike (1x dmg, bypass Armor) \
+            \nDefense Shattering Impact (1.5 dmg, bypas Armor, Remove Shield) \
+            \nDistracting Strike (1x dmg, -50% dmg) \
+            \nReady to Crush (+50% dmg, +30% Crit Chance)', \
+            inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Diplocaulus Gen 1 (LV n/a, n/a DNA) + Irritator Gen 2 (LV n/a, n/a DNA) = Diplotator', inline = 'false')
+
+        await client.say(embed = embed)
+
 #Ankylocodon
+@dino.command()
+async def ankylocodon():
+        embed = discord.Embed(
+                title = 'Ankylocodon Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/07/Ankylocodon-1.png")
+        embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/ankylocodon/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 25% \n__Speed:__ 107 \n__Critical:__ 20%', inline = 'False')
+        embed.add_field(name = 'Moveset', value = \
+            'Armor Piercing Impact (1.5x dmg, bypass Armor) \
+            \nArmor Piercing Strike (1x dmg, bypass Armor) \
+            \nDecelerating Impact (1.5x dmg, -50% Speed) \
+            \nLong Protection (1x dmg, +50% Defense 4 turns)', \
+            inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Ankylosaurus Gen 2 (LV n/a, n/a DNA) +  Ophiacodon (LV n/a, n/a DNA) = Ankylocodon', inline = 'false')
+
+        await client.say(embed = embed)
+
 #Diloranosaurus
+@dino.command()
+async def dliranosaurus():
+        embed = discord.Embed(
+                title = 'Diloranosaurus Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/07/Diloranosaurus.png")
+        embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/Diloranosaurus/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 25% \n__Speed:__ 126 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Moveset', value = \
+            'Distracting Impact (1.5x dmg, -50% dmg) \
+            \nGreater Stunning Rampage (2x dmg, -75% Stun) \
+            \nImpact and Run (1.5 dmg, Auto Swap) \
+            \nSuperiority Strike (1x dmg, Cleanse Self, -33% Speed)', \
+            inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+
+        await client.say(embed = embed)
+
 #Monomimus
+@dino.command()
+async def monomius():
+        embed = discord.Embed(
+                title = 'Monomimus Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/07/Monomimus.png")
+        embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/monomius/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 129 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Moveset', value = \
+            'Distracting Impact (1.5x dmg, -50% dmg) \
+            \nEvasive Stance (Priority, +50% Dodge) \
+            \nNullifying Impact (1.5x dmg, Remove + Effects) \
+            \nNullifying Strike (1x dmg, Remove + Effects)', \
+            inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Monolophosaurus Gen 1  (LV15, n/a DNA) + Gallimimus (LV15, n/a DNA) = Monomimus', inline = 'false')
+
+        await client.say(embed = embed)
 
 #Tuoramoloch
+@dino.command()
+async def turamoloch():
+        embed = discord.Embed(
+                title = 'Tuoramoloch Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/07/Tuaromoloch.png")
+        embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/Tuoramoloch/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 126 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Moveset', value = \
+            'Greater Stunning Rampage (2x dmg, 75% Stun) \
+            \nImpact and Run (1.5x dmg, Auto Swap) \
+            \nLow Stunning Strike (1x dmg, 20% Stun) \
+            \nSlowing Impact (1.5 dmg, -50% Speed)', \
+            inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Tuojiangosaurus (LV20, n/a DNA) +  Paramoloch (LV20, n/a DNA) = Tuoramoloch', inline = 'false')
+
+        await client.say(embed = embed)
+
 #Sarcorixis
+@dino.command()
+async def sarcorxis():
+        embed = discord.Embed(
+                title = 'Sarcorixis Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/07/Sarcorixi.png")
+        embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/sarcorxis/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 15% \n__Speed:__ 115 \n__Critical:__ 20%', inline = 'False')
+        embed.add_field(name = 'Moveset', value = \
+            'Armor Piercing Strike (1x dmg, bypass Armor) \
+            \nFerocius Strike (1x dmg, _50% dmg) \
+            \nGreater Stunning Impact (1.5x dmg, 75% Stun) \
+            \nLockdown Impact (1.5 dmg, Cannot Swap)', \
+            inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Sarcosuchus (LV15, 200 DNA) + Einiasuchus (LV15, 50 DNA) = Sarcorixis', inline = 'false')
+
+        await client.say(embed = embed)
 
 #---------------------------------------------------------------------END PROJECT DINODEX----------------------------------------------------------------------------------------------------------#
 
