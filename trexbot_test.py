@@ -1038,7 +1038,7 @@ async def pyroraptor():
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 129 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Moveset', value = \
-            'Armor Piercing Impact (1.5x dmg, bypass Armor) \
+            'Impact (1.5x dmg) \
             \nPounce (2x dmg, -50% dmg) \
             \nStrike (1x dmg)', \
             inline = 'False')
@@ -2590,7 +2590,7 @@ async def sarcorixis():
         embed.add_field(name = 'Stats', value = '__Armor:__ 15% \n__Speed:__ 115 \n__Critical:__ 20%', inline = 'False')
         embed.add_field(name = 'Moveset', value = \
             'Armor Piercing Strike (1x dmg, bypass Armor) \
-            \nFerocius Strike (1x dmg, _50% dmg) \
+            \nFerocius Strike (1x dmg, +50% dmg) \
             \nGreater Stunning Impact (1.5x dmg, 75% Stun) \
             \nLockdown Impact (1.5 dmg, Cannot Swap)', \
             inline = 'False')
