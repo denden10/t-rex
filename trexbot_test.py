@@ -79,7 +79,7 @@ async def sarcosuchus():
             \nPinning Strike (1x dmg, Cannot swap)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Sarcosuchus (LV15, 200 DNA) + Einiasuchus (LV15, 50 DNA) = Sarcorixis', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -971,7 +971,8 @@ async def einiasaurus():
             \nStunning Impact (1.5x dmg, 33% Stun)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'Einiosaurus (LV5, 50 DNA) + Nundasuchus (LV5, 50 DNA) = Einiasuchus', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Einiosaurus (LV5, 50 DNA) + Nundasuchus (LV5, 50 DNA) = Einiasuchus \
+            \nSarcosuchus (LV15, 200 DNA) + Einiasuchus (LV15, 50 DNA) = Sarcorixis', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -1447,7 +1448,8 @@ async def monolophosaurus():
             \nNullifying Strike (1x dmg, Remove + Effects)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'Stegoceratops (LV15, 50 DNA) + Monolophosaurus (LV15, 50 DNA) = Monostegotops', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Stegoceratops (LV15, 50 DNA) + Monolophosaurus (LV15, 50 DNA) = Monostegotops \
+            \nMonolophosaurus (LV15, n/a DNA) + Gallimimus (LV15, n/a DNA) = Monomimus', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -1612,7 +1614,8 @@ async def stygimoloch():
             \nMinor Stunning Strike (1x dmg, 15% Stun)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'Parasaurolophus (LV15, 200 DNA) + Stygimoloch (LV15, 50 DNA) = Paramoloch', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Parasaurolophus (LV15, 200 DNA) + Stygimoloch (LV15, 50 DNA) = Paramoloch \
+            \nTuojiangosaurus (LV20, n/a DNA) +  Paramoloch (LV20, n/a DNA) = Tuoramoloch', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -1636,7 +1639,8 @@ async def paramoloch():
             \nStunning Impact (1.5 dmg, 33% Stun)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'Parasaurolophus (LV15, 200 DNA) + Stygimoloch (LV15, 50 DNA) = Paramoloch', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Parasaurolophus (LV15, 200 DNA) + Stygimoloch (LV15, 50 DNA) = Paramoloch \
+            \nTuojiangosaurus (LV20, n/a DNA) +  Paramoloch (LV20, n/a DNA) = Tuoramoloch', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -2140,7 +2144,8 @@ async def tuojiangosaurus():
             \nThagomizer (1.5x dmg, -50% Speed)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'Rajakylosaurus (LV20, 50 DNA) + Tuojiangosaurus (Lv20, 50 DNA) = Diorajasaur', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Rajakylosaurus (LV20, 50 DNA) + Tuojiangosaurus (Lv20, 50 DNA) = Diorajasaur \
+            \nTuojiangosaurus (LV20, n/a DNA) +  Paramoloch (LV20, n/a DNA) = Tuoramoloch', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -2377,7 +2382,7 @@ async def gallimimus():
             \nImpact and Run (1.5x dmg, Auto Swap', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Monolophosaurus (LV15, n/a DNA) + Gallimimus (LV15, n/a DNA) = Monomimus', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -2500,7 +2505,7 @@ async def ankylocodon():
 
 #Diloranosaurus
 @dino.command()
-async def dliranosaurus():
+async def diloranosaurus():
         embed = discord.Embed(
                 title = 'Diloranosaurus Stats',
                 colour = 0xD3D3D3
@@ -2524,7 +2529,7 @@ async def dliranosaurus():
 
 #Monomimus
 @dino.command()
-async def monomius():
+async def monomimus():
         embed = discord.Embed(
                 title = 'Monomimus Stats',
                 colour = 0xD3D3D3
@@ -2542,13 +2547,13 @@ async def monomius():
             \nNullifying Strike (1x dmg, Remove + Effects)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'Monolophosaurus Gen 1  (LV15, n/a DNA) + Gallimimus (LV15, n/a DNA) = Monomimus', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Monolophosaurus  (LV15, n/a DNA) + Gallimimus (LV15, n/a DNA) = Monomimus', inline = 'false')
 
         await client.say(embed = embed)
 
 #Tuoramoloch
 @dino.command()
-async def turamoloch():
+async def tuoramoloch():
         embed = discord.Embed(
                 title = 'Tuoramoloch Stats',
                 colour = 0xD3D3D3
@@ -2572,7 +2577,7 @@ async def turamoloch():
 
 #Sarcorixis
 @dino.command()
-async def sarcorxis():
+async def sarcorixis():
         embed = discord.Embed(
                 title = 'Sarcorixis Stats',
                 colour = 0xD3D3D3
