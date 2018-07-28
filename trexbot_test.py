@@ -146,7 +146,7 @@ async def diplocaulus():
             \nNullifying Strike (1x dmg, Removes + Effects)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Diplocaulus Gen 1 (LV5, 50 DNA) + Irritator Gen 2 (LV5, 50 DNA) = Diplotator', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -191,7 +191,7 @@ async def ophiacodon():
             \nArmor Piercing Strike (1x dmg, bypass Armor)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'Immunity (No Negative Effects)', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Ankylosaurus Gen 2 (LV5, 50 DNA) +  Ophiacodon (LV5, 50 DNA) = Ankylocodon', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -601,7 +601,7 @@ async def ankylosaurus2():
             \nVulnerability Strike (1x dmg, Vulnerable)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None' , inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Ankylosaurus Gen 2 (LV5, 50 DNA) +  Ophiacodon (LV5, 50 DNA) = Ankylocodon', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -852,7 +852,8 @@ async def irritator2():
             \nReady to Crush (+50% dmg, +30% Crit Chance)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'Suchomimus (LV5, 50 DNA) + Irritator Gen 2 (LV5, 50 DNA) = Suchotator', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Suchomimus (LV5, 50 DNA) + Irritator Gen 2 (LV5, 50 DNA) = Suchotator \
+            \nDiplocaulus Gen 1 (LV5, 50 DNA) + Irritator Gen 2 (LV5, 50 DNA) = Diplotator', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -1449,7 +1450,7 @@ async def monolophosaurus():
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
         embed.add_field(name = 'Hybrid Information', value = 'Stegoceratops (LV15, 50 DNA) + Monolophosaurus (LV15, 50 DNA) = Monostegotops \
-            \nMonolophosaurus (LV15, n/a DNA) + Gallimimus (LV15, n/a DNA) = Monomimus', inline = 'false')
+            \nMonolophosaurus (LV15, 50 DNA) + Gallimimus (LV15, 50 DNA) = Monomimus', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -1615,7 +1616,7 @@ async def stygimoloch():
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
         embed.add_field(name = 'Hybrid Information', value = 'Parasaurolophus (LV15, 200 DNA) + Stygimoloch (LV15, 50 DNA) = Paramoloch \
-            \nTuojiangosaurus (LV20, n/a DNA) +  Paramoloch (LV20, n/a DNA) = Tuoramoloch', inline = 'false')
+            \nTuojiangosaurus (LV20, 500 DNA) +  Paramoloch (LV20, 50 DNA) = Tuoramoloch', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -1640,7 +1641,7 @@ async def paramoloch():
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
         embed.add_field(name = 'Hybrid Information', value = 'Parasaurolophus (LV15, 200 DNA) + Stygimoloch (LV15, 50 DNA) = Paramoloch \
-            \nTuojiangosaurus (LV20, n/a DNA) +  Paramoloch (LV20, n/a DNA) = Tuoramoloch', inline = 'false')
+            \nTuojiangosaurus (LV20, 500 DNA) +  Paramoloch (LV20, 50 DNA) = Tuoramoloch', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -2145,7 +2146,7 @@ async def tuojiangosaurus():
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
         embed.add_field(name = 'Hybrid Information', value = 'Rajakylosaurus (LV20, 50 DNA) + Tuojiangosaurus (Lv20, 50 DNA) = Diorajasaur \
-            \nTuojiangosaurus (LV20, n/a DNA) +  Paramoloch (LV20, n/a DNA) = Tuoramoloch', inline = 'false')
+            \nTuojiangosaurus (LV20, 500 DNA) +  Paramoloch (LV20, 50 DNA) = Tuoramoloch', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -2382,7 +2383,7 @@ async def gallimimus():
             \nImpact and Run (1.5x dmg, Auto Swap', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'Monolophosaurus (LV15, n/a DNA) + Gallimimus (LV15, n/a DNA) = Monomimus', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Monolophosaurus (LV15, 50 DNA) + Gallimimus (LV15, 50 DNA) = Monomimus', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -2475,7 +2476,7 @@ async def diplotator():
             \nReady to Crush (+50% dmg, +30% Crit Chance)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'Diplocaulus Gen 1 (LV n/a, n/a DNA) + Irritator Gen 2 (LV n/a, n/a DNA) = Diplotator', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Diplocaulus Gen 1 (LV5, 50 DNA) + Irritator Gen 2 (LV5, 50 DNA) = Diplotator', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -2499,7 +2500,7 @@ async def ankylocodon():
             \nLong Protection (1x dmg, +50% Defense 4 turns)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'Ankylosaurus Gen 2 (LV n/a, n/a DNA) +  Ophiacodon (LV n/a, n/a DNA) = Ankylocodon', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Ankylosaurus Gen 2 (LV5, 50 DNA) +  Ophiacodon (LV5, 50 DNA) = Ankylocodon', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -2547,7 +2548,7 @@ async def monomimus():
             \nNullifying Strike (1x dmg, Remove + Effects)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'Monolophosaurus  (LV15, n/a DNA) + Gallimimus (LV15, n/a DNA) = Monomimus', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Monolophosaurus  (LV15, 50 DNA) + Gallimimus (LV15, 50 DNA) = Monomimus', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -2571,7 +2572,7 @@ async def tuoramoloch():
             \nSlowing Impact (1.5 dmg, -50% Speed)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'Tuojiangosaurus (LV20, n/a DNA) +  Paramoloch (LV20, n/a DNA) = Tuoramoloch', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Tuojiangosaurus (LV20, 500 DNA) +  Paramoloch (LV20, 50 DNA) = Tuoramoloch', inline = 'false')
 
         await client.say(embed = embed)
 
