@@ -2514,7 +2514,7 @@ async def diloranosaurus():
         )
 
         embed.set_footer(text = 'DinoDex')
-        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/07/Diloranosaurus.png")
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/05/Diloranosaurus.png")
         embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/Diloranosaurus/")
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 25% \n__Speed:__ 126 \n__Critical:__ 5%', inline = 'False')
@@ -2610,7 +2610,7 @@ async def dilophosaurus():
         )
 
         embed.set_footer(text = 'DinoDex')
-        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/07/Dilophosaurus.png")
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/05/Dilophosaurus.png")
         embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/Dilophosaurus/")
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 124 \n__Critical:__ 5%', inline = 'False')
@@ -2624,6 +2624,27 @@ async def dilophosaurus():
 
         await client.say(embed = embed)
 
+#Dilophosaurus Gen 2
+@dino.command()
+async def dilophosaurus2():
+        embed = discord.Embed(
+                title = 'Dilophosaurus Gen 2 Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/05/Dilophosaurus-gen-2.png")
+        embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/Dilophosaurus-gen-2/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 121 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Moveset', value = \
+            'Distracting Impact (1.5x dmg, -50% dmg) \
+            \nNullifying Strike (1x dmg, Remove + Effects)', \
+            inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+
+        await client.say(embed = embed)
 #---------------------------------------------------------------------END PROJECT DINODEX----------------------------------------------------------------------------------------------------------#
 
 client.run(TOKEN)
