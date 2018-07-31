@@ -17,8 +17,9 @@ async def on_ready():
     print('Logged in as')
     print(client.user.name)
     print(client.user.id)
-    print('Bot Ready. Prepare for Trouble. Rawr.'   )
+    print('Bot Ready. Prepare for Trouble. Rawr.')
 
+###DISCLAIMER: THIS DISCORD BOT IS NOT READILY UP-TO-DATE. I"m trying my best to keep up with the moves!###
 
 #the following commands are just for fun
 @client.command(brief = 'Try it out!', description = 'Try it out!')
@@ -441,7 +442,7 @@ async def ouranosaurus():
             \nStrike (1x dmg)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Dilophosaurus (LV15, 50 DNA) + Ouranosaurus (LV15, 50 DNA) = Diloranosaurus', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -2523,7 +2524,7 @@ async def diloranosaurus():
             \nSuperiority Strike (1x dmg, Cleanse Self, -33% Speed)', \
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Dilophosaurus (LV15, 50 DNA) + Ouranosaurus (LV15, 50 DNA) = Diloranosaurus', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -2596,6 +2597,29 @@ async def sarcorixis():
             inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
         embed.add_field(name = 'Hybrid Information', value = 'Sarcosuchus (LV15, 200 DNA) + Einiasuchus (LV15, 50 DNA) = Sarcorixis', inline = 'false')
+
+        await client.say(embed = embed)
+
+#Dilophosaurus
+@dino.command()
+async def dilophosaurus():
+        embed = discord.Embed(
+                title = 'Dilophosaurus Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/07/Dilophosaurus.png")
+        embed.set_author(name = "More information here", url="https://metahub.info/jwa-dinosaur/Dilophosaurus/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 124 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Moveset', value = \
+            'Distracting Impact (1.5x dmg, -50% dmg) \
+            \nNullifying Impact (1.5x dmg, Remove + Effects) \
+            \nNullifying Strike (1x dmg, Remove + Effects)', \
+            inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Dilophosaurus (LV15, 50 DNA) + Ouranosaurus (LV15, 50 DNA) = Diloranosaurus', inline = 'false')
 
         await client.say(embed = embed)
 
