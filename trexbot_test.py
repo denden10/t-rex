@@ -13,7 +13,7 @@ client = commands.Bot(command_prefix = "$")
 #Setting a "PLaying Status" on the Discord Bot"
 @client.event
 async def on_ready():
-    await client.change_presence(game=discord.Game(name="DinoDex in Python"))
+    await client.change_presence(game=discord.Game(name="Dino DNA"))
     print('Logged in as')
     print(client.user.name)
     print(client.user.id)
@@ -1247,12 +1247,12 @@ async def parasaurolophus():
 @dino.command()
 async def tragodistis():
         embed = discord.Embed(
-                title = 'Parasaurolophus Stats',
+                title = 'Tragodistis Stats',
                 colour = 0xD3D3D3
         )
 
         embed.set_footer(text = 'DinoDex')
-        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/05/tragodistis.png")
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/05/Tragodistis.png")
         embed.set_author(name = "Moveset and More information here", url="https://metahub.info/jwa-dinosaur/tragodistis/")
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 40% \n__Speed:__ 124 \n__Critical:__ 5%', inline = 'False')
