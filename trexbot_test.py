@@ -13,7 +13,7 @@ client = commands.Bot(command_prefix = "$")
 #Setting a "PLaying Status" on the Discord Bot"
 @client.event
 async def on_ready():
-    await client.change_presence(game=discord.Game(name="Dino DNA"))
+    await client.change_presence(game=discord.Game(name="With Dino DNA"))
     print('Logged in as')
     print(client.user.name)
     print(client.user.id)
@@ -233,7 +233,7 @@ async def deinocheirus():
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 130 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Dilophosaurus (LV20, ?? DNA) + Deinocheirus (LV20, ?? DNA) = Diloracheirus', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -487,7 +487,8 @@ async def ankylosaurus2():
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 25% \n__Speed:__ 111 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None' , inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'Ankylosaurus Gen 2 (LV5, 50 DNA) +  Ophiacodon (LV5, 50 DNA) = Ankylocodon', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Ankylosaurus Gen 2 (LV5, 50 DNA) +  Ophiacodon (LV5, 50 DNA) = Ankylocodon\
+            \nAlanqa (LV ??, ?? DNA) + Ankylosaurus Gen 2 (LV15, 500 DNA) = Alankylosaurus', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -505,7 +506,7 @@ async def dimetrodon2():
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 112 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'Immunity' , inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Dimetrodon Gen 2 (L15, 500 DNA) + Monolophosaurus Gen 2 (LV15, 500 DNA) = Monolometrodon', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -596,7 +597,7 @@ async def monolophosaurus2():
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 127 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None' , inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Dimetrodon Gen 2 (L15, 500 DNA) + Monolophosaurus Gen 2 (LV15, 500 DNA) = Monolometrodon', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -1035,8 +1036,9 @@ async def nodopatosaurus():
         embed.add_field(name = 'Stats', value = '__Armor:__ 25% \n__Speed:__ 106 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
         embed.add_field(name = 'Hybrid Information', value = 'Apatosaurus (LV10, 200 DNA) + Nodosaurus (LV10, 50 DNA) = Nodopatosaurus\
-            \n Stegosaurus (LV15, 500 DNA) + Nodopatosaurus (LV15, 50 DNA) = Stegodeus \
-            \n Nodopatosaurus (LV15, 50 DNA) + Amargasaurus (LV15, 200 DNA) = Gigaspikasaur', inline = 'false')
+            \nStegosaurus (LV15, 500 DNA) + Nodopatosaurus (LV15, 50 DNA) = Stegodeus \
+            \nNodopatosaurus (LV15, 50 DNA) + Amargasaurus (LV15, 200 DNA) = Gigaspikasaur\
+            \nGiraffatitan (LV15, 50 DNA) + Nodopatosaurus (LV15, 50 DNA)= Nodopatotitan', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -1887,7 +1889,7 @@ async def giraffatitan():
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 10% \n__Speed:__ 107 \n__Critical:__ 10%', inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Giraffatitan (LV15, 50 DNA) + Nodopatosaurus (LV15, 50 DNA)= Nodopatotitan', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -1977,7 +1979,8 @@ async def diloranosaurus():
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 25% \n__Speed:__ 126 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
-        embed.add_field(name = 'Hybrid Information', value = 'Dilophosaurus (LV15, 50 DNA) + Ouranosaurus (LV15, 50 DNA) = Diloranosaurus', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Dilophosaurus (LV15, 50 DNA) + Ouranosaurus (LV15, 50 DNA) = Diloranosaurus\
+            \nDilophosaurus (LV20, ?? DNA) + Deinocheirus (LV20, ?? DNA) = Diloracheirus', inline = 'false')
 
         await client.say(embed = embed)
 
@@ -2068,6 +2071,171 @@ async def dilophosaurus2():
         embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 121 \n__Critical:__ 5%', inline = 'False')
         embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
         embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+
+        await client.say(embed = embed)
+
+#Bird Update-------------------------------------------
+#Nodopatotitan
+@dino.command()
+async def nodopatotitan():
+        embed = discord.Embed(
+                title = 'Nodopatitan Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/09/Nodopatitain.png")
+        embed.set_author(name = "Moveset and More information here", url="https://metahub.info/jwa-dinosaur/nodopatotitan/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 40% \n__Speed:__ 105 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'Counter Attack', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Giraffatitan (LV15, 50 DNA) + Nodopatosaurus (LV15, 50 DNA)= Nodopatotitan', inline = 'false')
+
+        await client.say(embed = embed)
+
+#Diloracheirus
+@dino.command()
+async def diloracheirus():
+        embed = discord.Embed(
+                title = 'Diloracheirus Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/09/Diloracherius.png")
+        embed.set_author(name = "Moveset and More information here", url="https://metahub.info/jwa-dinosaur/diloracheirus/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 129 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'None', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Dilophosaurus (LV20, ?? DNA) + Deinocheirus (LV20, ?? DNA) = Diloracheirus', inline = 'false')
+
+        await client.say(embed = embed)
+
+#Monolometrodon
+@dino.command()
+async def monolometrodon():
+        embed = discord.Embed(
+                title = 'Monolometrodon Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/09/Monomoletrodon.png")
+        embed.set_author(name = "Moveset and More information here", url="https://metahub.info/jwa-dinosaur/monolometrodon/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 119 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'Immunity', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Dimetrodon Gen 2 (L15, 500 DNA) + Monolophosaurus Gen 2 (LV15, 500 DNA) = Monolometrodon', inline = 'false')
+
+        await client.say(embed = embed)
+
+#Hatzegopteryx
+@dino.command()
+async def hatzegopteryx():
+        embed = discord.Embed(
+                title = 'Hatzegopteryx Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/09/Hatzegop.png")
+        embed.set_author(name = "Moveset and More information here", url="https://metahub.info/jwa-dinosaur/hatzegopteryx/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 114 \n__Critical:__ 0%', inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'Swap-In Defense', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+
+        await client.say(embed = embed)
+
+#Arambourgiania
+@dino.command()
+async def arambourgiania():
+        embed = discord.Embed(
+                title = 'Arambourgiania Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/09/Arambourgiania.png")
+        embed.set_author(name = "Moveset and More information here", url="https://metahub.info/jwa-dinosaur/arambourgiania/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 112 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'Swap-In Invicibility', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+
+        await client.say(embed = embed)
+
+#Quetzalcoatlus
+@dino.command()
+async def quetzalcoatlus():
+        embed = discord.Embed(
+                title = 'Quetzalcoatlus Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/09/Quetzal-.png")
+        embed.set_author(name = "Moveset and More information here", url="https://metahub.info/jwa-dinosaur/quetzalcoatlus/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 114 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'Swap-In Defense', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+
+        await client.say(embed = embed)
+
+#Tupandactylus
+@dino.command()
+async def tupandactylus():
+        embed = discord.Embed(
+                title = 'Tupandactylus Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/09/Tupandactylus.png")
+        embed.set_author(name = "Moveset and More information here", url="https://metahub.info/jwa-dinosaur/tupandactylus/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 109 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'Counter Attack \
+            \nSwap-In Ferocity', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'None', inline = 'false')
+
+        await client.say(embed = embed)
+
+#Alanqa
+@dino.command()
+async def alanqa():
+        embed = discord.Embed(
+                title = 'Alanqa Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/09/Alanqa.png")
+        embed.set_author(name = "Moveset and More information here", url="https://metahub.info/jwa-dinosaur/alanqa/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 116 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'Swap-In Invicibility', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Alanqa (LV ??, ?? DNA) + Ankylosaurus Gen 2 (LV15, 500 DNA) = Alankylosaurus', inline = 'false')
+
+        await client.say(embed = embed)
+
+
+#Alankylosaurus
+@dino.command()
+async def alankylosaurus():
+        embed = discord.Embed(
+                title = 'Alankylosaurus Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/09/Alankylosaurus.png")
+        embed.set_author(name = "Moveset and More information here", url="https://metahub.info/jwa-dinosaur/alankylosaurus/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 110 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'Swap-In Invicibility', inline = 'false')
+        embed.add_field(name = 'Hybrid Information', value = 'Alanqa (LV ??, ?? DNA) + Ankylosaurus Gen 2 (LV15, 500 DNA) = Alankylosaurus', inline = 'false')
 
         await client.say(embed = embed)
 #---------------------------------------------------------------------END PROJECT DINODEX----------------------------------------------------------------------------------------------------------#
