@@ -2238,6 +2238,25 @@ async def alankylosaurus():
         embed.add_field(name = 'Hybrid Information', value = 'Alanqa (LV ??, ?? DNA) + Ankylosaurus Gen 2 (LV15, 500 DNA) = Alankylosaurus', inline = 'false')
 
         await client.say(embed = embed)
+	
+#Pteranodon
+@dino.command()
+async def pteranodon():
+        embed = discord.Embed(
+                title = 'Pteranodon Stats',
+                colour = 0xD3D3D3
+        )
+
+        embed.set_footer(text = 'DinoDex')
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/09/Pteranodon-.png")
+        embed.set_author(name = "Moveset and More information here", url="https://metahub.info/jwa-dinosaur/pteranodon/")
+
+        embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 112 \n__Critical:__ 5%', inline = 'False')
+        embed.add_field(name = 'Passive Effects', value = 'Counter Attack\
+            \nSwap-In Ferocity', inline = 'false')
+        embed.add_field(name = 'None', inline = 'false')
+
+        await client.say(embed = embed) 
 #---------------------------------------------------------------------END PROJECT DINODEX----------------------------------------------------------------------------------------------------------#
 
 client.run(TOKEN)
