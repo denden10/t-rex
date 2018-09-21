@@ -13,7 +13,7 @@ client = commands.Bot(command_prefix = "$")
 #Setting a "PLaying Status" on the Discord Bot"
 @client.event
 async def on_ready():
-    await client.change_presence(game=discord.Game(name="With Dino DNA"))
+    await client.change_presence(game=discord.Game(name="With Dino Bugs"))
     print('Logged in as')
     print(client.user.name)
     print(client.user.id)
