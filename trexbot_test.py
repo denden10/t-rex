@@ -2248,7 +2248,7 @@ async def pteranodon():
         )
 
         embed.set_footer(text = 'DinoDex')
-        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/09/Pteranodon-.png")
+        embed.set_thumbnail(url = "https://metahub.info/wp-content/uploads/2018/09/Pteranadon-.png")
         embed.set_author(name = "Moveset and More information here", url="https://metahub.info/jwa-dinosaur/pteranodon/")
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 112 \n__Critical:__ 5%', inline = 'False')
