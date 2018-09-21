@@ -2256,7 +2256,7 @@ async def pteranodon():
             \nSwap-In Ferocity', inline = 'false')
         embed.add_field(name = 'None', inline = 'false')
 
-        await client.say(embed = embed)        
+        await client.say(embed = embed) 
 #---------------------------------------------------------------------END PROJECT DINODEX----------------------------------------------------------------------------------------------------------#
 
 client.run(TOKEN)
