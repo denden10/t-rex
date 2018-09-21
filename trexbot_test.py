@@ -2252,7 +2252,7 @@ async def pteranodon():
         embed.set_author(name = "Moveset and More information here", url="https://metahub.info/jwa-dinosaur/pteranodon/")
 
         embed.add_field(name = 'Stats', value = '__Armor:__ 0% \n__Speed:__ 112 \n__Critical:__ 5%', inline = 'False')
-        embed.add_field(name = 'Passive Effects', value = 'Counter Attack\
+        embed.add_field(name = 'Passive Effects', value = 'Counter Attack \
             \nSwap-In Ferocity', inline = 'false')
         embed.add_field(name = 'None', inline = 'false')
 
